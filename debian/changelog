@@ -1,5 +1,5 @@
-uniscan (6.2-1) unstable; urgency=low
+uniscan (6.2-1kali0) kali; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release 
 
- -- Devon Kearns <dookie@localhost.localdomain>  Fri, 22 Mar 2013 08:58:46 -0600
+ -- Devon Kearns <dookie@kali.org>  Fri, 22 Mar 2013 08:58:46 -0600
