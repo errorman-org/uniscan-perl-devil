@@ -1,0 +1,5 @@
+uniscan (6.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Devon Kearns <dookie@localhost.localdomain>  Fri, 22 Mar 2013 08:58:46 -0600
