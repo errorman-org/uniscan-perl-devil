@@ -12,3 +12,4 @@ RFI usr/share/uniscan/
 Uniscan usr/share/uniscan/
 *.conf usr/share/uniscan/
 *.pl usr/share/uniscan/
+debian/helper-script/* usr/bin/
