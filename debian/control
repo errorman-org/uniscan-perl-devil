@@ -5,7 +5,7 @@ Maintainer: Devon Kearns <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: http://sourceforge.net/projects/uniscan/
-Vcs-Git: ssh://git@git.kali.org/packages/uniscan.git
+Vcs-Git: git://git.kali.org/packages/uniscan.git
 Vcs-Browser: http://git.kali.org/gitweb/?p=packages/uniscan.git;a=summary
 
 Package: uniscan

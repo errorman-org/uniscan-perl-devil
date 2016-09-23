@@ -1,0 +1,20 @@
+Description: Fix to work with Perl 5.22.2-5
+ '.' has been removed from @INC by default in Perl 5.22.2-5 in debian
+ (fixes 588017)
+Origin: other, https://bugs.kali.org/view.php?id=3608
+Bug-Kali: https://bugs.kali.org/view.php?id=3608
+Last-Update: 2016-09-23
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/uniscan.pl
++++ b/uniscan.pl
+@@ -20,7 +20,8 @@
+ #	 Douglas Poerschke Rocha since version 1.0
+ 
+ 	
+-use lib "./Uniscan";
++use FindBin qw($RealBin);
++use lib $RealBin;
+ use Uniscan::Crawler;
+ use Uniscan::Functions;
+ use Uniscan::Scan;

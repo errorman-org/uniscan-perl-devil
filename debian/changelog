@@ -1,6 +1,7 @@
 uniscan (6.3-0kali1) kali-dev; urgency=medium
 
   * Import new upstream release
+  * Add a patch to work with Perl 5.22.2-5 (closes 3608)
 
  -- Sophie Brun <sophie@freexian.com>  Fri, 23 Sep 2016 10:12:52 +0200
 
