@@ -1,3 +1,9 @@
+uniscan (6.3-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 23 Sep 2016 10:12:52 +0200
+
 uniscan (6.2-1kali0) kali; urgency=low
 
   * Initial release 
