@@ -17,7 +17,6 @@
 #
 #    Development Team:
 #
-#	 Cicero Miguel Schons since version 6.1
 #	 Douglas Poerschke Rocha since version 1.0
 
 	
@@ -44,7 +43,7 @@ $|++;
 getopts('u:f:i:o:hbqwsdergj', \%args);
 $func->createHTML();
 $func->banner();
-$func->CheckUpdate();
+#$func->CheckUpdate();
 
 if($args{h}){
 	$func->help();
