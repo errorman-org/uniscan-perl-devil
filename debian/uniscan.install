@@ -1,4 +1,4 @@
-*.txt usr/share/uniscan/
+c.txt usr/share/uniscan/
 DB usr/share/uniscan/
 Directory usr/share/uniscan/
 Files usr/share/uniscan/
