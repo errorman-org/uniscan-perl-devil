@@ -375,7 +375,7 @@ sub date{
 sub CheckUpdate(){
 	my $self = shift;
 	my $h = Uniscan::Http->new();
-	my $response = $h->GET("http://uniscan.sourceforge.net/version.txt") or die("$!\n");
+	my $response = $h->GET("http://uniscan.sourceforge.net/version.txt");
 	chomp $response;
 	if($response ne $conf{'version'} && $response =~ /^\d+[\.\d+]+$/){
 		&write("self", $conf{'lang88'} ." $response ". $conf{'lang89'});

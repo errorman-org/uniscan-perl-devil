@@ -1,3 +1,8 @@
+Uniscan v6.3 date 22/07/2015
+
+- Remove checkUpdate function from uniscan.pl
+
+
 Uniscan v6.2 date 18/08/2012
 
 - Improve HTTPS (SSL) requests.
