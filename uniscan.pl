@@ -20,7 +20,8 @@
 #	 Douglas Poerschke Rocha since version 1.0
 
 	
-use lib "./Uniscan";
+use FindBin qw( $RealBin );
+use lib $RealBin;
 use Uniscan::Crawler;
 use Uniscan::Functions;
 use Uniscan::Scan;
